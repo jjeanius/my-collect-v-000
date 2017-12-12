@@ -5,5 +5,5 @@ collection = []
     collection << yield(collection[i])
     i += 1
    end
-  collection
+  puts collection
 end
