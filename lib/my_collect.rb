@@ -5,10 +5,6 @@ collection = []
     collection << yield(collection[i])
     i += 1
      end
-  language.upcase
+  collection
 end
 
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(collection) do |lang|
-  lang.upcase
-end
