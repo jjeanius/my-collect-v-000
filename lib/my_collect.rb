@@ -8,6 +8,6 @@ def my_collect(languages)
   my_collect
 end
 
-my_collect(languages) do |language|
+my_collect(["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]) do |language|
   language.upcase
 end
