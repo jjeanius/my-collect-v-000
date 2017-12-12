@@ -8,4 +8,3 @@ new.collection = []
    end
    new.collection
 end
-
