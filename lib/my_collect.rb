@@ -5,7 +5,7 @@ collection = []
     collection << yield(collection[i])
     i += 1
      end
-  collection[i]
+  collection
 end
 
 collection = ['ruby', 'javascript', 'python', 'objective-c']
