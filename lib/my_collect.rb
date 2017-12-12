@@ -7,4 +7,3 @@ collections= []
    end
   collections
 end
-
