@@ -4,6 +4,6 @@ collections = []
   while i < collection.length
     collection << yield(collection[i])
     i += 1
-     end
-  collections
+   end
+  collection
 end
